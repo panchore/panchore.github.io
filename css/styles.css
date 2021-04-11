@@ -65,8 +65,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
+  
   text-align: left;
-  background-color: #fff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -7613,6 +7613,11 @@ button.bg-dark:focus {
   margin-bottom: 3rem !important;
 }
 
+.mb-5-border
+{
+	border-bottom: 2px solid #bd5d38
+}
+
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important;
@@ -10015,6 +10020,7 @@ p.lead {
   font-size: 1.5rem;
 }
 
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -10035,6 +10041,7 @@ p.lead {
     width: 17rem;
     height: 100vh;
   }
+
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
@@ -10043,6 +10050,13 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #home .img-profile {
+	display: flex;
+    max-width: 15rem;
+    max-height: 15rem;
+	position: block;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -10067,8 +10081,8 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
@@ -10097,6 +10111,10 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+  background: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -10111,4 +10129,33 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+/* ======= Footer ======= */
+.footer {
+  background: #32383e;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer .copyright {
+  line-height: 1.6;
+  color: #a1aab4;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer .fa-heart {
+  color: #fb866a;
+}
+
+a.btn-cta-primary, .btn-cta-primary {
+  background: #54ba4e;
+  border: 1px solid #54ba4e;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
 }

@@ -18,6 +18,8 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+		<header class="header">
+		</header>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -27,9 +29,11 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Me</a></li>
 					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                 </ul>
@@ -37,20 +41,25 @@
         </nav>
         <!-- Page Content-->
         <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
+			<!-- Home-->
+            <section class="resume-section rounded-sm" id="home">
+                <div class="resume-section-content rounded-sm">				
                     <h1 class="mb-0">
                         Ganesh
                         <span class="text-primary">Pote</span>
                     </h1>
-                    <div class="subheading mb-5">                       
-                        <a href="mailto:ganesh.pote@hotmail.com">ganesh.pote@hotmail.com</a> | 
-						 Mumbai, Maharashtra, India
+					<div class="subheading mb-5">  
+						Cloud & DevOps Solution Architect					
                     </div>
-                    <p class="lead mb-5">Working as a Senior Solution Architect for DevOps and Infrastructure Automation with around 13 years of experience in architecting cloud native applications, migrations and administration on public and private (VMWare, AWS, Azure and GCP) clouds.
-					Also experience as a Cloud DevOps and Automation Architect to automate Tools Infrastructure, CI Platform, Application Provisioning, Deployment, and Management with deep understanding and scaling of DevOps process and tooling to build stable products.
-					He can work independently or as part of a team to successfully provide innovative IT solutions and deliver results. Recognised for relationship building with team members and clients. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value.</p>
+					<div class="subheading">
+						<p>
+							MCA, University of Mumbai
+							</br>
+							Mumbai, Maharashtra, India
+							</br>
+							<a href="mailto:ganesh.pote@hotmail.com">ganesh.pote@hotmail.com</a>						
+						</p>
+					<div>
                     <div class="social-icons">
                         <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/ganeshpote/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" target="_blank" href="https://github.com/ganeshcpote"><i class="fab fa-github"></i></a>
@@ -60,63 +69,81 @@
                 </div>
             </section>
 			<hr class="m-0" />
+			
+            <!-- About-->
+            <section class="resume-section" id="about">
+				<div class="resume-section-content rounded-sm">
+					<h2 class="mb-5 mb-5-border">About Me</h2>                    
+					<p class="lead mb-5">
+						Working as a Senior Solution Architect for DevOps and Infrastructure Automation with around 13 years of experience in architecting cloud native applications, migrations and administration on public and private (VMWare, AWS, Azure and GCP) clouds. 
+					</p>
+					<p class="lead mb-5">
+						Also experience as a Cloud DevOps and Automation Architect to automate Tools Infrastructure, CI Platform, Application Provisioning, Deployment, and Management with deep understanding and scaling of DevOps process and tooling to build stable products.
+					</p>
+					<p class="lead mb-5">
+						He can work independently or as part of a team to successfully provide innovative IT solutions and deliver results. Recognised for relationship building with team members and clients. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value.
+					</p>
+
+				</div>
+            </section>
+			<hr class="m-0" />
             <!-- Skills-->
             <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                <div class="resume-section-content rounded-sm">
+                    <h2 class="mb-5 mb-5-border">Skills</h2>
+                    <div class="subheading mb-3">Skills & Tools</div>
                     <ul class="fa-ul mb-0">
-                        <li>
+						<li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Programming and Scripting: .NET, C#, Java, Python, Bash/Shell, Ruby, PowerShell
+                            <b>Operating System:</b> Linux, Windows
                         </li>
 						<li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            UI: Angular, Django
+                            <b>Container:</b> Docker, Kubernetes
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Virtualization and Cloud: Microsoft Windows Azure, AWS, Docker, Vagrant, CoreOS, Google Cloud Engine
+                            <b>Programming and Scripting:</b> .NET, C#, Java, Python, Bash/Shell, Ruby, PowerShell, JavaScript
                         </li>
 						<li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            VMware Tools: vCAC, vCD, vFabric Application Director
+                            <b>Databases:</b> MSSQL, MYSQKL, DynamoDB, PostgreSQL, MongoDB
                         </li>
 						<li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            PaaS Tools: CloudFoundry, CloudSoft Apache Brooklyn, Scalr
+                            <b>UI:</b> Angular, Django
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Configuration Management: Terraform and Ansible
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            CI/CD: GIT, BitBucket, Jenkins, Team Foundation Server, VSTS
+                            <b>Cloud:</b> VMWare, Microsoft Windows Azure, AWS, Google Cloud Engine
                         </li>
 						<li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Alerting & Monitoring: NewReplic, Nagios, Pingdom, SCOM, Grafana, Prometheus
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Logging: ELK, Splunk
+                            <b>VMware Tools:</b> vCAC, vCD, vFabric Application Director
                         </li>
 						<li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            RBA Tools: RunDeck
+                            <b>PaaS Tools:</b> CloudFoundry, CloudSoft Apache Brooklyn, Scalr
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
+                            <b>Configuration Management:</b> Chef, Terraform, Ansible
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
+                            <b>CI/CD:</b> GIT, BitBucket, Jenkins, Team Foundation Server, VSTS
+                        </li>
+						<li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <b>Alerting & Monitoring:</b> NewReplic, Nagios, Pingdom, SCOM, Grafana, Prometheus
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
+                            <b>Logging:</b> ELK, Splunk
+                        </li>
+						<li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            <b>RBA Tools:</b> RunDeck
                         </li>
                     </ul>
                 </div>
@@ -124,12 +151,12 @@
             <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
+                <div class="resume-section-content rounded-sm">
+                    <h2 class="mb-5 mb-5-border">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Senior Manager - Cloud Solution Architect</h3>
-                            <div class="subheading mb-3">Reliance Jio</div>
+                            <div class="subheading mb-3">Reliance Jio - Mumbai</div>
                             <p>
 								<ul>
 									<li>Responsible to respond various RFP, RFI as a part of Pre-Sales and solution team to address DevOps, Cloud Migration and Automation</li>
@@ -142,23 +169,23 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Technical Solution Architect</h3>
-                            <div class="subheading mb-3">Xoriant Solutions</div>
-                            <p>
-							<ul>
+                            <div class="subheading mb-3">Xoriant Solutions - Mumbai</div>
+                            
+								<ul>
 									<li> Leading Infrastructure Automation to deliver unique GTM Solutions for various customers, which includes :<ul><li>Centralized monitoring using open source tools like Grafana, Prometheus with self-healing using Python, Terraform and ITSM tools integration like JIRA, ServiceNow</li><li>Service Desk Automation using Jenkins and ServiceNow</li></ul>
 									</li>
 									<li>Responsible to respond various RFP, RFI as a part of Pre-Sales and solution team to address DevOps, Cloud Migration and Automation and ServiceNow improvement areas. </li>
 									<li>Responsible to delivering Azure and AWS Cloud, DevOps, and Data Science projects for medical and insurance domain customers</li>
-							</ul>
-							</p>
+								</ul>
+							
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">October 2019 - February 2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Senior Technical Delivery Manager, SDDC Cloud COE Lead</h3>
-                            <div class="subheading mb-3">Capgemini Technology Service India Pvt. Ltd.</div>
-                            <p>
+                            <div class="subheading mb-3">Capgemini Technology Service India Pvt. Ltd. - Mumbai</div>
+                            
 								<ul>
 									<li>
 										Leading SDDC Automation COE within IMS business unit to deliver unique GTM Solutions for various customers to reduce manual efforts which includes:
@@ -184,15 +211,15 @@
 									<li>Keeps abreast of key technology developments through collaboration with strategic vendors, attending industry events and working with Sr. Directors/VPs, disseminating the information to the wider technical community.</li>
 									<li>Engage and manage partner resources as part of the development and industrialisation projects to ensure adherence to best practice</li>
 								</ul>
-							</p>
+							
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">December 2015 - October 2019</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Project Lead</h3>
-                            <div class="subheading mb-3">L&T Infotech Ltd.</div>
-                            <p>
+                            <div class="subheading mb-3">L&T Infotech Ltd. - Sweden</div>
+                            
 								<ul>
 									<li>Design, architect, and implement next generation system architecture and automation solutions</li>
 									<li>Implement, maintain, and improve Continuous Integration and Continuous Delivery environments</li>
@@ -202,35 +229,35 @@
 									<li>Participated at organization level process improvement group to standardize process related .NET development/maintenance project and continuous integration to automate development, release and build process using tools</li>
 									<li>Review and audit of existing solution, design & system architecture</li>
 								</ul>
-							</p>
+							
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">January 2015 - December 2015</span></div>
                     </div>
 					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">System Analyst</h3>
-                            <div class="subheading mb-3">Atos India Pvt. Ltd. | Canopy Cloud </div>
-                            <p>
-							<ul>
-								<li>Design and Develop "Canopy Compose" product which offers complete lifecycle management of Cloud services, enabling you to take your existing applications and deploy them as Cloud services using VMWare stack</li>
-								<li>Responsible for creating Cloud assessments framework, DevOps/automation initiative, Cloud migrations assessments to respond various RFP/RFI as a part of pre-sales and solution organisation</li>
-								<li>Work closely with the chief architect, service architect and portfolio to execute product/services automation roadmaps</li>
-								<li>Setup PaaS platform on AWS and vCloud Air</li>
-								<li>Design, Orchestrate and Deploy various service blueprints using Automation to multiple Cloud environments like AWS, Azure, Google Cloud Engine and OpenStack</li>
-								<li>Acts as a technical liaison between clients, service engineering teams and support;</li>
-								<li>Develop a RFP and POC migration approach to move workloads from On-Premises to Cloud</li>
-								<li>Design integration with Service-now using API's</li>
-								<li>Own and lead initiatives to define, design, and implement DevOps solutions which includes reference architectures, estimates, and costing</li>
-							</ul>
-							</p>
+                            <div class="subheading mb-3">Atos India Pvt. Ltd. | Canopy Cloud  - Mumbai</div>
+                            
+								<ul>
+									<li>Design and Develop "Canopy Compose" product which offers complete lifecycle management of Cloud services, enabling you to take your existing applications and deploy them as Cloud services using VMWare stack</li>
+									<li>Responsible for creating Cloud assessments framework, DevOps/automation initiative, Cloud migrations assessments to respond various RFP/RFI as a part of pre-sales and solution organisation</li>
+									<li>Work closely with the chief architect, service architect and portfolio to execute product/services automation roadmaps</li>
+									<li>Setup PaaS platform on AWS and vCloud Air</li>
+									<li>Design, Orchestrate and Deploy various service blueprints using Automation to multiple Cloud environments like AWS, Azure, Google Cloud Engine and OpenStack</li>
+									<li>Acts as a technical liaison between clients, service engineering teams and support;</li>
+									<li>Develop a RFP and POC migration approach to move workloads from On-Premises to Cloud</li>
+									<li>Design integration with Service-now using API's</li>
+									<li>Own and lead initiatives to define, design, and implement DevOps solutions which includes reference architectures, estimates, and costing</li>
+								</ul>
+							
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2013 - January 2015</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Lead Developer</h3>
-                            <div class="subheading mb-3">Capgemini India Pvt. Ltd.</div>
-                            <p>
+                            <div class="subheading mb-3">Capgemini India Pvt. Ltd. - Mumbai</div>
+                            
 								<ul>
 									<li>Responsible for implementation of change requests – investigation, design and resolution of issues and UAT support</li>
 									<li>Responsible for preparation of project specific support documentation such as Technical design documents, Research and Analysis Documents with business solution, Release management documents, Impact analysis document (before implementation of CR), peer review document</li>
@@ -244,50 +271,80 @@
 									<li>Performed unit testing and deployment.</li>
 									<li>Involved actively end user’s implementation and post production support.</li>
 								</ul>
-							</p>
+							
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2010 - September 2013</span></div>
                     </div>
-					<div class="d-flex flex-column flex-md-row justify-content-between">
+					<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Software Developer</h3>
-                            <div class="subheading mb-3">Worldwide Software</div>
-                            <p>
-							<ul>
-								<li>Involved in Requirement gathering, analysis, design and development</li>
-								<li>Developed C# class, stored procedures as per business requirements</li>
-								<li>Involved in working on the middle tier, creating C#.Net libraries to encapsulate the business logic</li>
-								<li>Used Windows Communication Foundation (WCF) to expose business logic as services and consumed those services from client applications </li>
-								<li>Involved in creates the deployment scripts for production and Test environment; </li>
-								<li>Perform unit testing, peer-review, application/code walk-through of other team members for errors and defects</li>
-							</ul>
-							</p>
+                            <div class="subheading mb-3">Worldwide Software - Mumbai</div>
+                            
+								<ul>
+									<li>Involved in Requirement gathering, analysis, design and development</li>
+									<li>Developed C# class, stored procedures as per business requirements</li>
+									<li>Involved in working on the middle tier, creating C#.Net libraries to encapsulate the business logic</li>
+									<li>Used Windows Communication Foundation (WCF) to expose business logic as services and consumed those services from client applications </li>
+									<li>Involved in creates the deployment scripts for production and Test environment; </li>
+									<li>Perform unit testing, peer-review, application/code walk-through of other team members for errors and defects</li>
+								</ul>
+							
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2008 - September 2010</span></div>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
+			
+			<!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content rounded-sm">
+                    <h2 class="mb-5 mb-5-border">Projects</h2>
+					<ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            OS Patch Scheduling & Execution Automation using Python Flask, Angular to patch RHEL, Centos inventory and generate the patch compliance dashboards
+                        </li>
+						<li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Centralized On-Prem and Cloud Managed Service Operations Automation to automate L1, L2 and L3 task using Python, ServiceNow and Rundeck
+                        </li>
+						<li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Migration as a Service to move workload from on-prem VMWare to AWS Cloud
+                        </li>
+						<li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            DevOps on Cloud using Jenkins, AWS CodePipeline, Azure DevOps to perform CI/CD and container (Docker, Kubernetes) based deployments
+                        </li>
+						<li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            ServiceNow catalog development and integration with Rundeck, Python APIs for VM provisioning and decommission operations along with other on-prem and cloud managed service operations
+                        </li>
+					</ul>			
+				</div>
+			</section>
+            <hr class="m-0" />
+			
             <!-- Education-->
             <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-section-content rounded-sm">
+                    <h2 class="mb-5 mb-5-border">Education</h2>
+					<div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Mumbai</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Bsci Computer Science</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2008</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Mumbai</h3>
-                            <div class="subheading mb-3">Master of Computer Applications</div>
-                            <div>MCA</div>
+                            <h3 class="mb-0">Master of Computer Applications</h3>
+                            <div class="subheading mb-3"> University of Mumbai</div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2008 - May 2011</span></div>
                     </div>
+					
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Bachelor of Science - Computer Science</h3>
+                            <div class="subheading mb-3">University of Mumbai</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2008</span></div>
+                    </div>                    
                 </div>
             </section>            
             <hr class="m-0" />
@@ -302,8 +359,8 @@
             <hr class="m-0" />-->
             <!-- Awards-->
             <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Professioanl Awards</h2>
+                <div class="resume-section-content rounded-sm">
+                    <h2 class="mb-5 mb-5-border">Professioanl Awards</h2>
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
@@ -333,6 +390,12 @@
                 </div>
             </section>
         </div>
+		  <!-- ******FOOTER****** -->
+		<footer class="footer">
+			<div class="container text-center">
+
+			</div><!--//container-->
+		</footer><!--//footer-->
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
